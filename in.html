@@ -1,0 +1,415 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="in.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Movie Database</title>
+    <!-- <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">    <!--logo -->
+                <h1 class="logo"><a href="in.html" style="color:#507c83">MOVIE</a></h1>
+            </div>
+
+            <div class="menu-container">   <!--menu-->
+                <ul class="menu-list">
+                    <li class="menu-list-item active"><a href="home.html">Home</a></li>
+                    <li class="menu-list-item"><a href="movies.html">Movies</a></li>
+                    <li class="menu-list-item"><a href="series.html">Series</a></li>
+                    <li class="menu-list-item"><a href="popular.html">Popular</a></li>
+                    <li class="menu-list-item"><a href="trends.html">Trends</a></li>
+                </ul>  
+            </div>
+
+            <div class="profile-container">   <!--profile-->
+                <img class="profile-picture" src="profile.jpg" alt="">
+                <div class="profile-text-container">
+                    <!--span is used for styling a specific portion-->
+                    <span class="profile-text">Profile</span>   
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="toggle">     <!--toggle-->
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <i class="fas fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--complete of navbar--3>
+
+    <div class="sidebar">    <!--icons -->
+        <i class="left-menu-icon fas fa-search"></i>
+        <i class="left-menu-icon fas fa-home"></i>
+        <i class="left-menu-icon fas fa-users"></i>
+        <i class="left-menu-icon fas fa-bookmark"></i>
+        <i class="left-menu-icon fas fa-tv"></i>
+        <i class="left-menu-icon fas fa-hourglass-start"></i>
+        <i class="left-menu-icon fas fa-shopping-cart"></i>
+    </div>
+
+    <div class="container">     <!--main container-->
+        <div class="content-container">    <!--main conatiner inside content container-->
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom,#000000,#132427, #000000), url('img/f-1.jpg');">
+                <img class="featured-title" src="211608.jpg" alt="">
+                <p class="featured-desc">WELCOME.
+                    Millions of movies, TV shows and people to discover.Explore now.
+                </p>
+                <button class="featured-button">WATCH</button>
+            </div>
+
+            <div class="movie-list-container-1"      
+            style="background: linear-gradient(to bottom,#151621, #000000)">  <!--movie list container 1-->
+                <h1 class="movie-list-title-1">TRENDING</h1>
+                <div class="movie-list-wrapper-1">
+                    <div class="movie-list-1">
+                        <div class="movie-list-item-1">
+                            <img src="cartoon1.jpg" alt="" class="movie-list-item-img-1">
+                            <span class="movie-list-item-title-1">ENCANTO</span>
+                            <p class="movie-list-item-desc-1">link-body-emphasis </p>
+                            <button class="movie-list-item-button-1" style=color:(blue)>Watch</button>
+                        </div>
+                        <div class="movie-list-item-1">
+                            <img src="cartoon2.jpg" alt="" class="movie-list-item-img-1">
+                            <span class="movie-list-item-title-1">GOOD DISNOSAUR</span>
+                            <p class="movie-list-item-desc-1">link-body-emphasis </p>
+                            <button class="movie-list-item-button-1">Watch</button>
+                        </div>
+                        <div class="movie-list-item-1">
+                            <img src="cartoon3.jpg" alt="" class="movie-list-item-img-1">
+                            <span class="movie-list-item-title-1">FINDING DORY</span>
+                            <p class="movie-list-item-desc-1">link-body-emphasis </p>
+                            <button class="movie-list-item-button-1">Watch</button>
+                        </div>
+                        <div class="movie-list-item-1">
+                            <img src="cartoon4.jpg" alt="" class="movie-list-item-img-1">
+                            <span class="movie-list-item-title-1">FROZON-II</span>
+                            <p class="movie-list-item-desc-1">link-body-emphasis </p>
+                            <button class="movie-list-item-button-1">Watch</button>
+                        </div>
+                        <div class="movie-list-item-1">
+                            <img src="cartoon5.jpg" alt="" class="movie-list-item-img-1">
+                            <span class="movie-list-item-title-1">ZOOTOPIA</span>
+                            <p class="movie-list-item-desc-1">link-body-emphasis </p>
+                            <button class="movie-list-item-button-1">Watch</button>
+                        </div>
+                        <div class="movie-list-item-1">
+                            <img src="cartoon6.jpg" alt="" class="movie-list-item-img-1">
+                            <span class="movie-list-item-title-1">BOLT</span>
+                            <p class="movie-list-item-desc-1">link-body-emphasis </p>
+                            <button class="movie-list-item-button-1">Watch</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-list-container-2" 
+            style="background: linear-gradient(to bottom,#151621, #000000)">
+                <div class="movie-list-wrapper-2">
+                    <div class="movie-list-2">
+                        <div class="movie-list-item-2">
+                            <img src="2.jpg" alt="" class="movie-list-item-img-1">
+                            <span class="movie-list-item-title-1">DISNEY FAIRY</span>
+                            <p class="movie-list-item-desc-1">link-body-emphasis </p>
+                            <button class="movie-list-item-button-1">Watch</button>
+                        </div>
+                        <div class="movie-list-item-2">
+                            <img src="3.jpg" alt="" class="movie-list-item-img-1">
+                            <span class="movie-list-item-title-1">Her</span>
+                            <p class="movie-list-item-desc-1">link-body-emphasis </p>
+                            <button class="movie-list-item-button-1">Watch</button>
+                        </div>
+                        <div class="movie-list-item-2">
+                            <img src="5.jpg" alt="" class="movie-list-item-img-1">
+                            <span class="movie-list-item-title-1">PRINCESS DIANA</span>
+                            <p class="movie-list-item-desc-1">link-body-emphasis </p>
+                            <button class="movie-list-item-button-1">Watch</button>
+                        </div>
+                        <div class="movie-list-item-2">
+                            <img src="6.jpg" alt="" class="movie-list-item-img-1">
+                            <span class="movie-list-item-title-1">Her</span>
+                            <p class="movie-list-item-desc-1">link-body-emphasis </p>
+                            <button class="movie-list-item-button-1">Watch</button>
+                        </div>
+                        <div class="movie-list-item-2">
+                            <img src="c.jpg" alt="" class="movie-list-item-img-1">
+                            <span class="movie-list-item-title-1">LITTLE WOMEN</span>
+                            <p class="movie-list-item-desc-1">link-body-emphasis </p>
+                            <button class="movie-list-item-button-1">Watch</button>
+                        </div>
+                        <div class="movie-list-item-2">
+                            <img src="beast.jpg" alt="" class="movie-list-item-img-1">
+                            <span class="movie-list-item-title-1">BEAUTY AND THE BEAST</span>
+                            <p class="movie-list-item-desc-1">link-body-emphasis </p>
+                            <button class="movie-list-item-button-1">Watch</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-list-container" 
+            style="background:linear-gradient(to bottom,#000000,#000000)">    <!--main movie list container-->
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="m1.jpg" alt="">
+                            <span class="movie-list-item-title">Venom</span>
+                            <p class="movie-list-item-desc">Venom" is a 2018 American superhero film based on the 
+                                Marvel Comics character of the same name, directed by Ruben Fleischer and starring 
+                                Tom Hardy in the titular role.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="m2.jpg" alt="">
+                            <span class="movie-list-item-title">Dunkers</span>
+                            <p class="movie-list-item-desc">Dunkirk" is a 2017 war film directed by Christopher Nolan, 
+                                depicting the Dunkirk evacuation of World War II from three perspectives: land, sea,
+                                 and air.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="m3.jpg" alt="">
+                            <span class="movie-list-item-title">Batman Vs Superman</span>
+                            <p class="movie-list-item-desc">Batman v Superman: Dawn of Justice" is a 2016 superhero 
+                                film directed by Zack Snyder, featuring an epic.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="m4.jpg" alt="">
+                            <span class="movie-list-item-title">John Wick</span>
+                            <p class="movie-list-item-desc">John Wick" is a 2014 action thriller directed by Chad 
+                                Stahelski, following the titular character, a retired hitman portrayed by Keanu.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="m5.jpg" alt="">
+                            <span class="movie-list-item-title">Aquaman</span>
+                            <p class="movie-list-item-desc">Aquaman" is a 2018 superhero film directed by James Wan, 
+                                chronicling the journey of Arthur Curry, portrayed by Jason Momoa</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="m6.jpg" alt="">
+                            <span class="movie-list-item-title">Black Panther</span>
+                            <p class="movie-list-item-desc">Black Panther" is a 2018 superhero film 
+                                directed by Ryan Coogler, set in the fictional African nation</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="m7.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="m10.jpg" alt="">
+                            <span class="movie-list-item-title">Blood Wars</span>
+                            <p class="movie-list-item-desc">Underworld: Blood Wars" is a 2016 action-horror film continuing the
+                                 saga of vampire warrior Selene as she battles to end the eternal war between vampires and lycans.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="m9.jpg" alt="">
+                            <span class="movie-list-item-title">Immortal Emirates</span>
+                            <p class="movie-list-item-desc">The Immortal Emirates" is an imagined title; please provide more context
+                                 or clarification if you're referring to a specific movie.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="monie-5.jpg" alt="">
+                            <span class="movie-list-item-title">Maze Runner</span>
+                            <p class="movie-list-item-desc">Maze Runner" is a 2014 dystopian sci-fi film, based on James Dashner's 
+                                novel, following a group of young survivors navigating a deadly maze as they seek to uncover.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="movie-1.jpg" alt="">
+                            <span class="movie-list-item-title">Hobbs & Shaw</span>
+                            <p class="movie-list-item-desc">Hobbs & Shaw" is a 2019 action film spin-off of the "Fast & Furious" 
+                                franchise, featuring Dwayne Johnson and Jason Statham as they team up to take down.
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="movie-2.jpg" alt="">
+                            <span class="movie-list-item-title">Bumblebee</span>
+                            <p class="movie-list-item-desc">Bumblebee" is a 2018 action-adventure film in the Transformers franchise, 
+                                following the titular Autobot as he befriends a teenage girl and embarks on a thrilling journy</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="movie-3.jpg" alt="">
+                            <span class="movie-list-item-title">Baby Driver</span>
+                            <p class="movie-list-item-desc">Baby Driver" is a 2017 action crime film directed by Edgar Wright, 
+                                featuring a young getaway driver with exceptional skills who gets caught up in a heist gone wrong.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="movie-4.jpg" alt="">
+                            <span class="movie-list-item-title">Divergent</span>
+                            <p class="movie-list-item-desc">Divergent" is a 2014 dystopian sci-fi film, based on Veronica Roth's novel, 
+                                depicting a society divided into factions and following a young woman who discovers she's Divergent.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+            <div class="main">    <!--next container-->
+                <div class="featured-content-1"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #000000)">
+                <img class="featured-title-1" src="173960.jpg" alt="">
+                <div class="feature-1">
+                    <h1 class="feature">Join Today</h1>
+                <p class="featured-desc-1">Get access to maintain your own custom personal lists, track what you've 
+                    seen and search and filter for what to watch next—regardless if it's in theatres, on TV or available 
+                    on popular streaming services like Netflix, Amazon Prime Video, Apple TV Plus, Crunchyroll, and Hotstar.</p>
+                    <ul>
+                        <li><a>Enjoy Movie ad free</a></li>
+                        <li><a>Maintain a personal watchlist</a></li>
+                        <li><a>Filter by your subscribed streaming services and find something to watch</a></li>
+                        <li><a>Log the movies and TV shows you've seen</a></li>
+                        <li><a>Build custom lists</a></li>
+                        <li><a>Contribute to and improve our database</a></li>
+                    </ul>   
+                </div>
+            </div>
+            </div>
+            <div class="movie-list-container-3">    <!--container 3 for movie -->
+                <h1 class="movie-list-title-3">FREE TO WATCH</h1>
+                <div class="movie-list-wrapper-3">
+                    <div class="movie-list-3">
+                        <div class="movie-list-item-3">
+                            <img class="movie-list-item-img-3" src="movie-6.jpg" alt="">
+                            <span class="movie-list-item-title-3">Her</span>
+                            <p class="movie-list-item-desc-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button-3">Watch</button>
+                        </div>
+                        <div class="movie-list-item-3">
+                            <img class="movie-list-item-img-3" src="popular-movie.jpg" alt="">
+                            <span class="movie-list-item-title-3">Her</span>
+                            <p class="movie-list-item-desc-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button-3">Watch</button>
+                        </div>
+                        <div class="movie-list-item-3">
+                            <img class="movie-list-item-img-3" src="popular-movie1.jpg" alt="">
+                            <span class="movie-list-item-title-3">Her</span>
+                            <p class="movie-list-item-desc-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button-3">Watch</button>
+                        </div>
+                        <div class="movie-list-item-3">
+                            <img class="movie-list-item-img-3" src="popular-movie2.jpg" alt="">
+                            <span class="movie-list-item-title-3">Her</span>
+                            <p class="movie-list-item-desc-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button-3">Watch</button>
+                        </div>
+                        <div class="movie-list-item-3">
+                            <img class="movie-list-item-img-3" src="popular-movie3.jpg" alt="">
+                            <span class="movie-list-item-title-3">Her</span>
+                            <p class="movie-list-item-desc-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button-3">Watch</button>
+                        </div>
+                        <div class="movie-list-item-3">
+                            <img class="movie-list-item-img-3" src="popular-movie4.jpg" alt="">
+                            <span class="movie-list-item-title-3">Her</span>
+                            <p class="movie-list-item-desc-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button-3">Watch</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <!-- <section>Footer Example 4</section> -->
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3>MOv<span>iE</span></h3>
+
+				<p class="footer-links">
+					<a href="#" class="link-1">Home</a>
+					
+					<a href="#">Blog</a>
+				
+					<a href="#">Trends</a>
+				
+					<a href="#">About</a>
+					
+					<a href="#">Faq</a>
+					
+					<a href="#">Contact</a>
+				</p>
+
+				<p class="footer-company-name">MOVIE © 2024</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>444 S.</span>Chandigarh, INDIA</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>123456789</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">support@MOVIE.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About the Website</span>
+					 Movie Database is a comprehensive platform offering a vast collection of films, coupled with user-friendly features for seamless browsing and exploration of cinematic experiences.
+				</p>
+
+				<div class="footer-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+				</div>
+			</div>
+		</footer>
+    <script src="app.js"></script>   <!--script use for javascript-->
+   
+</body>
+</html>
